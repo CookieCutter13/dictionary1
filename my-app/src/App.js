@@ -2,6 +2,8 @@ import Dictionary from "./dictionary";
 import "./App.css";
 import logo from "./dic.png";
 
+import Results from "./results";
+
 function App() {
   return (
     <div className="App">
@@ -12,6 +14,7 @@ function App() {
         <main>
           <Dictionary />
         </main>
+        <Results />
         <footer className="App-footer">
           <small>Coded by ME</small>
         </footer>
